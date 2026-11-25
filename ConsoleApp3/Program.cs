@@ -75,6 +75,7 @@ namespace DraftForLab3
         static void Main(string[] args)
         {
             Console.Write("Введiть n: ");
+            Console.Write("Введiть значення n: ");
             long n = long.Parse(Console.ReadLine());
 
             if (n < 2)
